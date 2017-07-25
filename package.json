@@ -1,0 +1,27 @@
+{
+  "name": "encoding-test",
+  "version": "0.0.1",
+  "description": "Usage: node index.js -p path/to/folder [-o path/to/output/folder]",
+  "bin": "./index.js",
+  "dependencies": {
+    "bluebird": "^3.5.0",
+    "graceful-fs": "^4.1.11",
+    "utf8": "^2.1.2",
+    "mkdirp": "^0.5.1",
+    "yargs": "^8.0.2"
+  },
+  "scripts": {
+    "test": "'none'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/harryxue1999/encoding-test.git"
+  },
+  "author": "Harry Xue",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/harryxue1999/encoding-test/issues"
+  },
+  "homepage": "https://github.com/harryxue1999/encoding-test#readme",
+  "private": true
+}
